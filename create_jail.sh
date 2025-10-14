@@ -34,7 +34,7 @@ NC='\033[0m' # Sem cor
 G_CURRENT_DIR="$HOME/jail"
 G_DIRS=("bin" "lib/x86_64-linux-gnu" "lib64" "dev" "etc" "home" "usr/bin" "proc")
 G_BINS=("bash" "ping" "ls" "ip" "whoami" "clear" "cat" "ps")
-G_DEPENDENCIES_LIST_F="./dependencies.txt"
+G_DEPENDENCIES_LIST_F="./dependencies-ldd.txt"
 G_REGEX="/lib(64)?/[^ ]+\.so(\.\d+)*"
 
 ##################################
